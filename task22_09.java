@@ -33,7 +33,7 @@ public class Solution {
         // Устанавливаем 1-ый элемент строки согласно заданию, при этом выдергиваем его из списка
         StringBuilder result =new StringBuilder(list_of_words.get(0));
         list_of_words.remove(0);
-
+        // хранилище для неподходящих слов
         StringBuilder additional = new StringBuilder("");
 
         while(list_of_words.size()>0){
